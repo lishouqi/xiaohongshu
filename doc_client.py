@@ -10,7 +10,7 @@ from datetime import datetime
 class GenerationConfig:
     model: str = "gpt-3.5-turbo"
     temperature: float = 0.8
-    max_tokens: int = 4096 # 默认输出长度
+    max_tokens: int = 8192 # 默认输出长度
     base_url: Optional[str] = None
     max_concurrent: int = 50
     preview_limit: int = 10
