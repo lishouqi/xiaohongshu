@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "writer"
+version = "0.1.0"
+description = "This is a little package for the llm writer building."
+authors = ["treedy"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+openai = {version = "^1.55.3", source = "tsinghua"}
+streamlit = {version = "^1.40.2", source = "tsinghua"}
+ruff = {version = "^0.8.1", source = "tsinghua"}
+tiktoken = "^0.8.0"
+pandas = "^2.2.3"
+xlsxwriter = "^3.2.0"
+pyinstaller = "^6.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"

@@ -1,0 +1,6 @@
+streamlit
+openai
+click
+python-dotenv
+pandas
+xlsxwriter 
