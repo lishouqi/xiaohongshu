@@ -54,7 +54,7 @@ class DocGeneratorClient:
         except Exception as e:
             print(f"获取模型列表时出错: {str(e)}")
             # 返回基础模型作为后备选项
-            return ["gpt-3.5-turbo", "gpt-4"]
+            return ["claude-3-5-sonnet-latest", "claude-3-5-sonnet-20241022"]
 
     async def generate_single_document(
         self,
