@@ -45,8 +45,8 @@ with st.sidebar:
     # base_url = "https://api.pumpkinaigc.online/v1"
     # api_key = "sk-Zt2HYxMpLmXpGY7U0aF2202fC9C84a6fA1CaA81f07449aCe"
 with api_tab:
-    base_url = st.text_input("🔗 请输入API地址", value="https://api.deerapi.com/v1")
-    api_key = st.text_input("🔑 请输入API密钥", type="password", value="sk-PDA2tAjIZv5Hirr9Nnhvdlnn1Kyu4wCq0mVJKerNzqaRvLY3")
+    base_url = st.text_input("🔗 请输入API地址", value="https://api.302.ai/v1/chat/completions")
+    api_key = st.text_input("🔑 请输入API密钥", type="password", value="sk-u46M9NIufvailcesrfHbo1G73rFT0e9qwAH5kMVEvm6rwyAw")
     
 
 # 主界面
