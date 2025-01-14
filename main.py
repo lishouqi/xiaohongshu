@@ -46,8 +46,8 @@ with st.sidebar:
     # api_key = "sk-Zt2HYxMpLmXpGY7U0aF2202fC9C84a6fA1CaA81f07449aCe"
 with api_tab:
     base_url = st.text_input("🔗 请输入API地址", value="https://api.302.ai/v1/chat/completions")
-    api_key = st.text_input("🔑 请输入API密钥", type="password", value="sk-u46M9NIufvailcesrfHbo1G73rFT0e9qwAH5kMVEvm6rwyAw")
-    
+    api_key = st.text_input("🔑 请输入API密钥", type="password", value="sk-HO9SNsAsEer6fjGbWwxGh3KS14bvoy5CfUc4bfjmcnru4IKt")
+
 
 # 主界面
 st.title("📄 小红书文案生成器")
