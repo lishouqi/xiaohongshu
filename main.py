@@ -42,8 +42,8 @@ with st.sidebar:
 
         st.markdown("- 普通配置参考 :blue[**{%人设%}**]: 包含最长输入500字符,\n\n "
                     "- 长文本配置参考 :red[**{%范文_%}**]: 包含最长输入5000字符，\n\n 📕 请注意，长上下文会消耗更多token，生成速度和稳定性也会下降。")
-    base_url = "https://api.pumpkinaigc.online/v1"
-    api_key = "sk-Zt2HYxMpLmXpGY7U0aF2202fC9C84a6fA1CaA81f07449aCe"
+    base_url = "https://api.302.ai/v1/chat/completions"
+    api_key = "sk-HO9SNsAsEer6fjGbWwxGh3KS14bvoy5CfUc4bfjmcnru4IKt"
 # with api_tab:
 #     base_url = st.text_input("🔗 请输入API地址", value="https://api.302.ai/v1/chat/completions")
 #     api_key = st.text_input("🔑 请输入API密钥", type="password", value="sk-HO9SNsAsEer6fjGbWwxGh3KS14bvoy5CfUc4bfjmcnru4IKt")
